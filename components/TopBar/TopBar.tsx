@@ -14,11 +14,16 @@ const TopBarContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 15px;
+    margin: 20px 0 20px 15px;
+ 
+  
+    width: 90%;
 ;`
 const LogoImage = styled.img`
-    width: 185px;
+    width: 200px;
     height: 70px;
+
+
 `;
 
 export default TopBar;

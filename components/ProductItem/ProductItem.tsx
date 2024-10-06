@@ -28,10 +28,10 @@ const ProductItemContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
     height: 120px;
     border-bottom: 1px solid black;
-    padding: 0 10px;
+    margin-left:20px;
 `;
 
 const ProductImage = styled.img`
