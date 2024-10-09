@@ -1,16 +1,25 @@
 import styled from "styled-components";
 
 type SignInInputProps = {
-    signInText: string;
+    studentId: string;
+    pwd:string
 };
 
-function SignInInput({ signInText }: SignInInputProps) {
+function SignInInput({ studentId,pwd }: SignInInputProps) {
     return (
-        <SignInInputContainer>
-            <SignInInputText>
-                {signInText}
-            </SignInInputText>
-        </SignInInputContainer>
+        <>
+            <SignInInputContainer>
+                <SignInInputText>
+                    {studentId}
+                </SignInInputText>
+            </SignInInputContainer>
+            <SignInInputContainer>
+                <SignInInputText>
+                    {pwd}
+                </SignInInputText>
+            </SignInInputContainer>
+        </>
+
     );
 }
 

@@ -8,8 +8,9 @@ function SignIn(){
     return(
         <BackgroundContainer>
             <IconImage src='/images/yongduMarketIcon.png'/>
-            <SignInInput signInText = "학번"/>
-            <SignInInput signInText ="비밀번호"/>
+            <SignInInput studentId = "학번"
+                         pwd ="비밀번호"/>
+
             <MainButton authText="로그인"/>
             <SignInText> 회원가입 / 비밀번호 재설정</SignInText>
         </BackgroundContainer>
