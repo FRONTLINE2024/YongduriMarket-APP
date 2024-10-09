@@ -55,6 +55,11 @@ const mockData: Product[] = [
 
 ];
 
+//import SignIn from "@/pages/SignIn/SignIn";
+//import SignUp from "@/pages/SignUp/SignUp";
+//import ChangePwd from "@/pages/ChangePwd/ChangePwd";
+//import SignUp from "@/pages/SignUp/SignUp";
+
 export default function Home() {
     return (
         <main>
@@ -63,6 +68,7 @@ export default function Home() {
                 <ProductItem key={item.productTitle} product={item} />
             ))}
             <BottomBar/>
+            {/*<SignUp/>*/}
         </main>
     );
 }
